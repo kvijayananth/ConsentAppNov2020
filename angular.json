@@ -117,8 +117,16 @@
               "devServerTarget": "goldstart:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "goldstart"
+    }
+  },
+  "defaultProject": "goldstart",
+  "cli": {
+    "analytics": "d37fa106-d3e0-41dc-bf69-4fd7cce6c4d6"
+  }
 }
